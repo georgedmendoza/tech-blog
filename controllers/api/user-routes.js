@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User } = require('../../models/User')
+const { User } = require('../../models')
 
 //get all 
 router.get('/', (req,res) => {
@@ -32,3 +32,5 @@ router.put('/:id', (req,res) => {
 router.delete('/:id', (req,res) => {
 
 })
+
+module.exports = router;
