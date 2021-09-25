@@ -129,7 +129,7 @@ nav #dashboard{
     margin: 1vw 1vw;
 }
 
-#home, nav a {
+#home{
     margin-left: 1vw;
 }
 
@@ -150,8 +150,8 @@ h2{
     text-decoration: none;
 }
 
-/* no working rn */
-/* .footer{
+footer {
     color: white;
-} */
-
+    transform: translate(0, 100%);
+    margin-top: 10%;
+}
