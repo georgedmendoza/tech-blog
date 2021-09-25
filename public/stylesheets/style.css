@@ -34,6 +34,18 @@ body {
     background-color: var(--dark-grey);
 }
 
+.dash {
+    color: black;
+    display: flex;
+    background: lightblue;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 2vh;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 /* a {
     text-decoration: none;
     color: white;
@@ -43,13 +55,13 @@ body {
 
 h1 a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     transition: color .1s;
     display: flex;
     min-width: 100vw;
     justify-content: center;
-    background: white;
+    background: lightgray;
     align-items: center;
     margin-bottom: 2vh;
 }
@@ -66,7 +78,15 @@ h1 a{
     padding: 5% 0;
 }
 
-button, nav a, .new-post-form .btn {
+.edit-link{
+    color: var(--dark-blue);
+}
+
+.meta a{
+    color: lightblue;
+}
+
+button, nav a, .new-post-form .btn, .edit-post-form button, .comment-form button {
     background-color: var(--dark-blue);
     border: 0;
     padding: 1%;
@@ -78,9 +98,22 @@ button, nav a, .new-post-form .btn {
     /* padding-left: 1%; */
 }
 
-/* .new-post-form .btn {
-    color: white;
-} */
+.edit-post-form button, .comment-form button{
+    margin: 1vh 0;
+}
+
+.login-form button, .signup-form button {
+    margin: 1vh 0 7vh;
+    border-radius: 2px;
+}
+
+.new-post-form {
+    margin: 2vh 0 5vh;
+}
+
+.new-post-form button {
+    margin: 2vh 0 0 0;
+}
 
 #logout{
     border-radius: 5px;
@@ -92,12 +125,28 @@ nav{
     align-items: center;
 }
 
-nav a{
+nav #dashboard{
     margin: 1vw 1vw;
 }
 
-a:hover, button:hover {
-    color: var(--dark-blue);
+#home, nav a {
+    margin-left: 1vw;
+}
+
+nav a:hover , button:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.dash:hover{
+    text-decoration: none;
+}
+
+h2{
+    color: lightblue;
+}
+
+.wrapper h1 a, .post .meta a,.edit-link a{
     text-decoration: none;
 }
 
