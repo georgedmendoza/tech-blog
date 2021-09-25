@@ -1,7 +1,7 @@
 # tech-blog
 
 ## Description 
-  This application generates a blow=g webpage using express, mysql2, sequelize, bootstrap, html, & css. Upon visiting the user can sign up or login. Once the user is signed up/loged in for the blog website then they can add new post, comment, and delete their own post. They can also view all other post existing. This application also includes test that check to see if the creation criteria for the username and password are valid.
+  This application generates a blog webpage using express, mysql2, sequelize, bootstrap, html, & css. Upon visiting the user can sign up or login. Once the user is signed up/loged in for the blog website then they can add new post, comment, and delete their own post. They can also view all other post existing. This application also includes test that check to see if the creation criteria for the username and password are valid.
 
    A screenshot of the deployed application is attached below.
 
@@ -12,8 +12,6 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
   - [Questions](#questions)
 
   ## Installation 
