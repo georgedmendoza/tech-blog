@@ -7,7 +7,7 @@
 
    This application can be found at the following link.
    
-    https://immense-headland-57964.herokuapp.com/
+   https://immense-headland-57964.herokuapp.com/
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
