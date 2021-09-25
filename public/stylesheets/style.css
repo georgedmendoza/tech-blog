@@ -16,6 +16,11 @@
     align-items: center;
     min-height: 100%;
     max-width: 1200px;
+    min-width: 100vw;
+    background-color: var(--dark-grey)
+}
+label{
+    color: white;
 }
 
 body, html {
@@ -29,13 +34,39 @@ body {
     background-color: var(--dark-grey);
 }
 
-a {
+/* a {
     text-decoration: none;
-    color: var(--ligh-blue);
+    color: white;
     font-weight: bold;
     transition: color .1s;
+} */
+
+h1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color .1s;
+    display: flex;
+    min-width: 100vw;
+    justify-content: center;
+    background: white;
+    align-items: center;
+    margin-bottom: 2vh;
 }
-button {
+
+.title a, .title span, li, .meta a, .comment{
+    color: white;
+}
+
+.title a, .title span, li{
+    font-weight: bold;
+}
+
+.post {
+    padding: 5% 0;
+}
+
+button, nav a, .new-post-form .btn {
     background-color: var(--dark-blue);
     border: 0;
     padding: 1%;
@@ -44,8 +75,34 @@ button {
     transition: background-color .1s;
     cursor: pointer;
     border-radius: 5px;
-  }
+    /* padding-left: 1%; */
+}
+
+/* .new-post-form .btn {
+    color: white;
+} */
+
+#logout{
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    margin: 1vw 1vw;
+}
 
 a:hover, button:hover {
     color: var(--dark-blue);
+    text-decoration: none;
 }
+
+/* no working rn */
+/* .footer{
+    color: white;
+} */
+
